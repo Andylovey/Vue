@@ -10,6 +10,9 @@ import './assets/static.css'
 
 Vue.config.productionTip = false
 
+// 引入Mock模拟数据
+import './mock/index'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
